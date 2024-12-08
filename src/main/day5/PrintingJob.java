@@ -18,5 +18,14 @@ public class PrintingJob {
         else return 0;
     }
 
+    public void swap(Integer a, Integer b){
+        if (!this.pages.isEmpty() && this.pages.contains(a) && this.pages.contains(b)){
+            int indexOfA = this.pages.indexOf(a);
+            int indexOfB = this.pages.indexOf(b);
+            this.pages.set(indexOfA, b);
+            this.pages.set(indexOfB, a);
+        }
+    }
+
 
 }

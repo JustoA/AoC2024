@@ -10,6 +10,10 @@ public class Day5Solver {
             int answer1 = part1.solve();
             System.out.println("Part 1 Answer: " + answer1);
 
+        Day5Part2Solver part2 = new Day5Part2Solver(parser);
+        int answer2 = part2.solve();
+        System.out.println("Part 2 Answer: " + answer2);
+
         }
 
 }
