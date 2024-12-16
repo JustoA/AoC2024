@@ -41,7 +41,6 @@ public class Day6Part2Solver {
                     pastStates.add(mgs.getState());
                     //move the guard
                     mgs.step();
-
                 }
             }
         });
